@@ -1,0 +1,15 @@
+name = "DLT"
+uuid = "ee0348a1-ee04-47ea-87e2-a23bf817d695"
+authors = ["Jay Dalton <github@t-jay.net>"]
+version = "1.0.0-DEV"
+
+[deps]
+BufferedStreams = "e1450e63-4bb3-523b-b2a4-4ffa8c0fd77d"
+Dates = "ade2ca70-3891-5945-98fb-dc099432e06a"
+ResumableFunctions = "c5292f4c-5179-55e1-98c5-05642aab7184"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
